@@ -1,0 +1,10 @@
+create database bank;
+use bank;
+===========================================================================================================================
+create table users(
+	ID int not null auto_increment,
+	pincode int not null,
+	name varchar(30) not null,
+	phone int not null,
+	balance int not null,
+	primary key(ID));
